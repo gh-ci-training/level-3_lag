@@ -12,7 +12,8 @@
 		"build": "chmod +x build.sh && ./build.sh"
 	},
 	"dependencies": {
-		"colors": "^1.4.0"
+		"colors": "^1.4.0",
+		"lodash": "4.17.13"
 	},
 	"devDependencies": {
 		"esbuild": "^0.25.10"
