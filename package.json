@@ -13,7 +13,7 @@
 	},
 	"dependencies": {
 		"colors": "^1.4.0",
-		"lodash": "4.17.13"
+		"lodash": "4.17.21"
 	},
 	"devDependencies": {
 		"esbuild": "^0.25.9"
