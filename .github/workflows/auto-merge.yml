@@ -9,7 +9,7 @@ jobs:
     permissions:
       pull-requests: write
       contents: write
-    if: ${{ github.actor == 'dependabot[bot]'}}
+    if: ${{ github.actor == 'dependabot[bot]' && github.repository == "gh-ci-training/level-3_lag" }}
     steps:
       - run: gh pr merge --squash --auto "$PR_URL"
         env:
